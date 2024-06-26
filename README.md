@@ -23,3 +23,8 @@ Requirements:
 Run `task init` to bootstrap the project.
 
 Ensure you're **connected to a non-production cluster** then run `task crd-extract` to update the CRD files.
+
+### ! For MacOS users
+
+To correctly extract the CRDs, you need to install `bash` using `brew install bash`.
+Since Mac's default won't allow declaring associative arrays with `declare -A`.
